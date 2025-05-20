@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Final Message</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #14532d, #22c55e);
+      color: #f0fff4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+    
+    
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .text-section {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .text-section h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ffe16b;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #f1f1f1;
+    }
+
+    .class-letter-button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      background-color: #ffdd57;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: fit-content;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .class-letter-button:hover {
+      background-color: #e6c84c;
+      transform: scale(1.05);
+    }
+
+    .image-section {
+      flex: 1;
+      background-image: url('bach_bao.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-section {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1>Napoleon</h1>
+      <p>
+        Chào Võ Gia Bách, nagiga hay tên gọi quen thuộc “Bão”. Trung bình mấy thằng nhà giàu, bố mẹ làm công ty thì thằng con cũng giỏi thật. M toàn diện vl, mỗi tội không khác gì napoleon. Ở m t luôn thấy m giống người lớn, vẫn có nét ngông nhưng luôn biết cách take care mọi người. T thấy m học busi là hợp lý đấy, luôn luôn xung phong lên thuyết trình, làm việc khó cho ae. T ngu văn vl nên là … sau này đi Anh vẫn giữ liên lạc nhé (liên lạc qua valo thì càng tốt 🐧). Chúc cu e luôn đi đúng hướng, hóa cơn “bão” quét qua các bài ktra, và kiếm được việc sau khi ra trường :V Thế nhá glhf, đại học vui vẻ. 
+P/s: trước khi bay ae đi bóng rổ phát nhể 👌
+        Ngô Vanh - Joker117 - Trust me bro
+      </p>
+      <button class="class-letter-button" onclick="window.location.href='../full_class/class_letter.html'">
+          Final shit
+      </button>
+    </div>
+    <div class="image-section"></div>
+  </div>
+</body>
+</html>

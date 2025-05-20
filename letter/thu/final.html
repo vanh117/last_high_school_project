@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Message</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .class-letter-button {
+      margin-top: 30px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      background-color: #00d4ff;
+      border: none;
+      border-radius: 8px;
+      color: #000;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .class-letter-button:hover {
+      background-color: #000;
+      color: #00d4ff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .text-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .text-section h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00d4ff;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .image-section {
+      flex: 1;
+      background-image: url("thu.PNG"); /* Replace with trading-themed image */
+      background-size: cover;
+      background-position: center;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-section {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1>Anh thư Sakura</h1>
+      <p>
+        Hế lô Thư, người đã somewhat "truyền cảm hứng" cho t để học, tập tành đọc nến. Thật sự là nghe m nói về chứng khoán trông m vip vl. Nghệ gấp tỷ lần Leo. Để mà nói thì nếu Leo iconic với cái khăn quàng đỏ của ổng thì m lại iconic với laptop và cốc nước :)) T đoán hai cái đấy đã giúp m kha khá trong việc apply đi mỹ (chắc chắn đ phải là vin đâu) và ngồi căng thẳng/ tiếc hùi hụi khi bán sớm. Th thì đời mà, có thắng có thua. Mong là sau này m đu đỉnh bán đáy 🐧 Lấy lỗ làm động lực, lấy lãi xây nhà lầu. Welp, có gì nếu t k kiếm được việc thì lúc đấy chỉ t chơi nhé. GLHF bro
+        <br><br>
+        — Vanh, aka “Joker117”, your default IT guy 🧑‍💻
+      </p>
+      <button class="class-letter-button" onclick="window.location.href='../full_class/class_letter.html'">
+        → For the Final Trade!
+      </button>
+    </div>
+    <div class="image-section"></div>
+  </div>
+</body>
+</html>

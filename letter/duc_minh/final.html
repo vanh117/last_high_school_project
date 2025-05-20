@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Message</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to bottom right, #d2ffe0, #c3fc9f, #8fff8b);
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .class-letter-button {
+      margin-top: 30px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      background-color: #ffdd57;
+      border: none;
+      border-radius: 8px;
+      color: #000;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .class-letter-button:hover {
+      background-color: #000;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .text-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .text-section h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #000;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .image-section {
+      flex: 1;
+      background-image: url('cud_hnim.jpg'); /* Replace or rename if needed */
+      background-size: cover;
+      background-position: center;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-section {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1></h1>
+      <p>
+47697665206d6520796f75722041726b6e6967687473206163636f756e7420666f7220667265652062726f2e20416e797761792c20636f6e6772617473206f6e206a6f696e696e6720535554442c20796f757220636f64696e6720736b696c6c73206973206d61676e69666963656e742062726f2e20492062656c6965766520696e20796f757220736b696c6c73206d616e2e20486f70652077652077696c6c207375727669766520756e74696c2032332e20        <br>
+        Ngô Vanh - Joker117 - IT guy
+      </p>
+      <button class="class-letter-button" onclick="window.location.href='../full_class/class_letter.html'">
+        For the final shit!
+      </button>
+    </div>
+    <div class="image-section"></div>
+  </div>
+</body>
+</html>

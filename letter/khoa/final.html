@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Message</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* deeper, more sci-fi feel */
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+    
+    .class-letter-button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #00ff99;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 0 10px #00ff99;
+    }
+    
+    .class-letter-button:hover {
+      background-color: #00cc7a;
+      transform: scale(1.05);
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 15px #00ff99;
+      animation: neon-glow 3s infinite ease-in-out;
+    }
+    
+    .text-section {
+      flex: 1;
+      padding: 40px;
+    }
+    
+    .text-section h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #00ff99;
+    }
+    
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+    
+    .image-section {
+      flex: 1;
+      background-image: url('gia_khoa.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.8) contrast(1.1);
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    
+      .image-section {
+        height: 300px;
+      }
+    }
+    
+    @keyframes neon-glow {
+      0%, 100% {
+        box-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99;
+      }
+      50% {
+        box-shadow: 0 0 25px #00cc7a, 0 0 40px #00cc7a;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1>My future roomate</h1>
+      <p>
+        Hi kat, chào người bạn goofy ahhh của t. Thsu, tớ không thể tin được c lại là một người pro như thế. Từ lúc vào trường đến giờ, cậu như một celeb ấy kat ạ. Cậu đi làm cái ted talk này (mặc dù t đíu đi nghe), c có ny này (dme kat). Không chỉ đen, cậu còn rất chăm chỉ (chăm vl), có khả năng thức đêm còn muộn hơn t (đừng thế nhá hại sức khỏe vl). Nói đi cg phải nói lại, cậu là người nghị lực nhất mà tớ biết (không liên quan đến màu da nhé 😞 tớ k racist, tớ racer th). Kể từ lúc học thầy Nhật, bọn tớ học lâu rồi không nói, nhưng mặc dù c luôn somewhat tụt lại phía sau, cậu vẫn luôn đi học vui vẻ, đều đặn, t nghĩ c thuộc loại làm nhiều, mưa dầm thấm lâu kat ah :))) giống t v. Thế th, happy bro. Chúc c sớm đỗ trường mà phù hợp với “túi tiền”. Wish u all the best bro          <br>
+      Ngô Việt Anh - Joker117 - Call me when u marry</p>
+      <button class="class-letter-button" onclick="window.location.href='../full_class/class_letter.html'">
+
+              For the final shit!
+      </button>
+    </div>
+    <div class="image-section"></div>
+
+
+  </div>
+  <br>
+
+  
+</body>
+</html>

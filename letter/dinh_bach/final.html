@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Message</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* deeper, more sci-fi feel */
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+    }
+    
+    .class-letter-button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #00ff99;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 0 10px #00ff99;
+    }
+    
+    .class-letter-button:hover {
+      background-color: #00cc7a;
+      transform: scale(1.05);
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 90%;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 15px #00ff99;
+      animation: neon-glow 3s infinite ease-in-out;
+    }
+    
+    .text-section {
+      flex: 1;
+      padding: 40px;
+    }
+    
+    .text-section h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #00ff99;
+    }
+    
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+    
+    .image-section {
+      flex: 1;
+      background-image: url('dinh_bach.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.8) contrast(1.1);
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    
+      .image-section {
+        height: 300px;
+      }
+    }
+    
+    @keyframes neon-glow {
+      0%, 100% {
+        box-shadow: 0 0 15px #00ff99, 0 0 30px #00ff99;
+      }
+      50% {
+        box-shadow: 0 0 25px #00cc7a, 0 0 40px #00cc7a;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1>My bro</h1>
+      <p>
+        Buồi rách gay, t với m quen nhau chắc cũng phải 5 năm cmnr (quen từ tận lớp 8 cơ mà). Thề, t đ hiểu tại sao lại chơi thân được với thằng đầu buồi gay lọ như m. Thôi chắc là ông trời đã bắt t phải gánh cục nợ là m (thsu là gánh còng lưng). M là thằng đã đem đến khá nhiều “lần đầu” của t (đcm nghe gay vl). Quá khứ của t với m thì khỏi phải nói, bất hảo vcut. Từ hồi archimedes, t với m với 9 ngón quậy vch, nếu đ có covid thì đã trèo tường nhiều hơn rồi -,- (đm thằng phúc loz nhá) :))) Tính đi tính lại, ae mình mới chỉ đi có: seen escape, đi đớp, net, coi phim, net, net và net. Duma nghiện vl. Th ruồi ah, t biết m là một thằng đầu có vấn đề, tại m mà t ngủ trong lớp, vô lo vô nghĩ như này :))) Thằng loz này cũng giỏi nữa cơ, thế mới cay. At least for now m đã biết được thứ m muốn làm và ngành yêu thích trong tương lai, h m chỉ cần focus vào 1 cái thì chắc sẽ pro hơn nhể :)) Thôi t nghĩ 5 năm là hơi ít béo ah, mong m với t vẫn đồng hành cùng nhau dài dài. Về già khéo lại đi đá bóng với làm vại bia cùng nhau thì phải gọi là bá cháy. Peace. <br>
+          
+      Ngô Vanh - Joker117 - go kart chúa</p>
+      <button class="class-letter-button" onclick="window.location.href='../full_class/class_letter.html'">
+
+              For the final shit!
+      </button>
+    </div>
+    <div class="image-section"></div>
+
+
+  </div>
+  <br>
+
+  
+</body>
+</html>
